@@ -1,0 +1,806 @@
+[
+  {
+    "qoute" : "A woman past forty should make up her mind to be young; not her face.",
+    "auther" : "Billie Burke"
+  },
+  {
+    "qoute" : "The girl with a future avoids a man with a past.",
+    "auther" : "Evan Esar"
+  },
+  {
+    "qoute" : "For other nations, utopia is a blessed past never to be recovered; for Americans it is just beyond the horizon.",
+    "auther" : "Henry Kissinger"
+  },
+  {
+    "qoute" : "Forgiveness does not change the past, but it does enlarge the future.",
+    "auther" : "Paul Boese"
+  },
+  {
+    "qoute" : "I like the dreams of the future better than the history of the past.",
+    "auther" : "Thomas Jefferson"
+  },
+  {
+    "qoute" : "We have to do with the past only as we can make it useful to the present and the future.",
+    "auther" : "Frederick Douglass"
+  },
+  {
+    "qoute" : "What is past is prologue.",
+    "auther" : "William Shakespeare"
+  },
+  {
+    "qoute" : "A generation which ignores history has no past and no future.",
+    "auther" : "Robert A. Heinlein"
+  },
+  {
+    "qoute" : "A novelist is, like all mortals, more fully at home on the surface of the present than in the ooze of the past.",
+    "auther" : "Vladimir Nabokov"
+  },
+  {
+    "qoute" : "A woman past forty should make up her mind to be young; not her face.",
+    "auther" : "Billie Burke"
+  },
+  {
+    "qoute" : "The girl with a future avoids a man with a past.",
+    "auther" : "Evan Esar"
+  },
+  {
+    "qoute" : "For other nations, utopia is a blessed past never to be recovered; for Americans it is just beyond the horizon.",
+    "auther" : "Henry Kissinger"
+  },
+  {
+    "qoute" : "Forgiveness does not change the past, but it does enlarge the future.",
+    "auther" : "Paul Boese"
+  },
+  {
+    "qoute" : "I like the dreams of the future better than the history of the past.",
+    "auther" : "Thomas Jefferson"
+  },
+  {
+    "qoute" : "We have to do with the past only as we can make it useful to the present and the future.",
+    "auther" : "Frederick Douglass"
+  },
+  {
+    "qoute" : "What is past is prologue.",
+    "auther" : "William Shakespeare"
+  },
+  {
+    "qoute" : "A generation which ignores history has no past and no future.",
+    "auther" : "Robert A. Heinlein"
+  },
+  {
+    "qoute" : "A novelist is, like all mortals, more fully at home on the surface of the present than in the ooze of the past.",
+    "auther" : "Vladimir Nabokov"
+  },
+  {
+    "qoute" : "A revolution is not a bed of roses. A revolution is a struggle between the future and the past.",
+    "auther" : "Fidel Castro"
+  },
+  {
+    "qoute" : "Ah tell me not that memory sheds gladness over the past; what is recalled by faded flowers save that they did not last?",
+    "auther" : "Letitia Elizabeth Landon"
+  },
+  {
+    "qoute" : "Americans have a penchant for the future and tend to disregard the past.",
+    "auther" : "Alan Dundes"
+  },
+  {
+    "qoute" : "An expert is someone who knows a lot about the past.",
+    "auther" : "Tom Hopkins"
+  },
+  {
+    "qoute" : "Anyone who doesn't miss the past never had a mother.",
+    "auther" : "Gregory Nunn"
+  },
+  {
+    "qoute" : "As one went to Europe to see the living past, so one must visit Southern California to observe the future.",
+    "auther" : "Alison Lurie"
+  },
+  {
+    "qoute" : "As youth lives in the future, so the adult lives in the past: No one rightly knows how to live in the present.",
+    "auther" : "Franz Grillparzer"
+  },
+  {
+    "qoute" : "Awareness requires living in the here and now, and not in the elsewhere, the past or the future.",
+    "auther" : "Eric Berne"
+  },
+  {
+    "qoute" : "Bureaucracy defends the status quo long past the time when the quo has lost its status.",
+    "auther" : "Laurence J. Peter"
+  },
+  {
+    "qoute" : "Change is the law of life. And those who look only to the past or present are certain to miss the future.",
+    "auther" : "John F. Kennedy"
+  },
+  {
+    "qoute" : "Children enjoy the present because they have neither a past nor a future.",
+    "auther" : "Jean de la Bruyère"
+  },
+  {
+    "qoute" : "Children have neither a past nor a future. Thus they enjoy the present - which seldom happens to us.",
+    "auther" : "Jean de la Bruyère"
+  },
+  {
+    "qoute" : "Confess yourself to heaven; repent what's past; avoid what is to come.",
+    "auther" : "William Shakespeare"
+  },
+  {
+    "qoute" : "Create your future from your future not your past.",
+    "auther" : "Werner Erhard"
+  },
+  {
+    "qoute" : "Do not be afraid of the past. If people tell you that it is irrevocable, do not believe them.",
+    "auther" : "Oscar Wilde"
+  },
+  {
+    "qoute" : "Don't live in the past. There's no point. You can't change anything. What a waste of time.",
+    "auther" : "Bob Newhart"
+  },
+  {
+    "qoute" : "Don't use the past as an excuse to miss out on your future.",
+    "auther" : "Alan Cohen"
+  },
+  {
+    "qoute" : "Each has his past shut in him like the leaves of a book known to him by heart and his friends can only read the title.",
+    "auther" : "Virginia Woolf"
+  },
+  {
+    "qoute" : "Enjoy the present hour, be thankful for the past, And neither fear nor wish th' approaches of the last.",
+    "auther" : "Abraham Cowley"
+  },
+  {
+    "qoute" : "Every journey into the past is complicated by delusions, false memories, false namings of real events.",
+    "auther" : "Adrienne Rich"
+  },
+  {
+    "qoute" : "Every man is his own ancestor, and every man his own heir. He devises his own fortune, and he inherits his own past.",
+    "auther" : "Francis Herbert Hedge"
+  },
+  {
+    "qoute" : "Every man's life lies within the present; for the past is spent and done with, and the future is uncertain.",
+    "auther" : "Marcus Aurelius"
+  },
+  {
+    "qoute" : "Fear not for the future, weep not for the past.",
+    "auther" : "Percy Bysshe Shelley"
+  },
+  {
+    "qoute" : "Forget the past and live the present hour.",
+    "auther" : "Sarah Knowles Bolton"
+  },
+  {
+    "qoute" : "Forgiveness means giving up all hope for a better past.",
+    "auther" : "Lily Tomlin"
+  },
+  {
+    "qoute" : "Freedom from effort in the present merely means that there has been effort stored up in the past.",
+    "auther" : "Theodore Roosevelt"
+  },
+  {
+    "qoute" : "God cannot alter the past, but historians can.",
+    "auther" : "Samuel Butler"
+  },
+  {
+    "qoute" : "Happiness in the present is only shattered by comparison with the past.",
+    "auther" : "Doug Horton"
+  },
+  {
+    "qoute" : "He is mad past recovery, but yet he has lucid intervals.",
+    "auther" : "Miguel de Cervantes"
+  },
+  {
+    "qoute" : "He who controls the past commands the future. He who commands the future conquers the past.",
+    "auther" : "George Orwell"
+  },
+  {
+    "qoute" : "History is the version of past events that people have decided to agree upon.",
+    "auther" : "Napoleon"
+  },
+  {
+    "qoute" : "I desire no future that will break the ties with the past.",
+    "auther" : "George Eliot"
+  },
+  {
+    "qoute" : "I do not know which makes a man more conservative - to know nothing but the present, or nothing but the past.",
+    "auther" : "John Maynard Keynes"
+  },
+  {
+    "qoute" : "I know of know way of judging the future but by the past.",
+    "auther" : "Patrick Henry"
+  },
+  {
+    "qoute" : "I like men who have a future and women who have a past.",
+    "auther" : "Oscar Wilde"
+  },
+  {
+    "qoute" : "I love my past, I love my present. I am not ashamed of what I have had, and I am not sad because I no longer have it.",
+    "auther" : "Sidonie Gabrielle Colette"
+  },
+  {
+    "qoute" : "I mentioned that one of the tripartite formulas in American worldview involves time: past, present, and future.",
+    "auther" : "Alan Dundes"
+  },
+  {
+    "qoute" : "I tend to live in the past because most of my life is there.",
+    "auther" : "Herb Caen"
+  },
+  {
+    "qoute" : "I think we all agree, the past is over.",
+    "auther" : "George W. Bush"
+  },
+  {
+    "qoute" : "I try to learn from the past, but I plan for the future by focusing exclusively on the present. That's were the fun is.",
+    "auther" : "Donald Trump"
+  },
+  {
+    "qoute" : "I will live in the past, the present, and the future. The spirits of all three shall strive within me.",
+    "auther" : "Charles Dickens"
+  },
+  {
+    "qoute" : "I wouldn't put it past God to arrange a virgin birth if He wanted, but I very much doubt if He would.",
+    "auther" : "David Jenkins"
+  },
+  {
+    "qoute" : "If past history was all there was to the game, the richest people would be librarians.",
+    "auther" : "Warren Buffett"
+  },
+  {
+    "qoute" : "If we examine our thoughts, we shall find them always occupied with the past and the future.",
+    "auther" : "Blaise Pascal"
+  },
+  {
+    "qoute" : "If we open a quarrel between past and present, we shall find that we have lost the future.",
+    "auther" : "Winston Churchill"
+  },
+  {
+    "qoute" : "If we open a quarrel between the past and the present, we shall find we have lost the future.",
+    "auther" : "Winston Churchill"
+  },
+  {
+    "qoute" : "If we've learned anything in the past quarter century, it is that we cannot federalize virtue.",
+    "auther" : "George Bush"
+  },
+  {
+    "qoute" : "In America, the photographer is not simply the person who records the past, but the one who invents it.",
+    "auther" : "Susan Sontag"
+  },
+  {
+    "qoute" : "In books lies the soul of the whole past time.",
+    "auther" : "Thomas Carlyle"
+  },
+  {
+    "qoute" : "In every conceivable manner, the family is link to our past, bridge to our future.",
+    "auther" : "Alex Haley"
+  },
+  {
+    "qoute" : "In order to plan your future wisely, it is necessary that you understand and appreciate your past.",
+    "auther" : "Jo Coudert"
+  },
+  {
+    "qoute" : "In spring's own country, where the gardens blow, ",
+    "auther" : "Adam Mickiewicz"
+  },
+  {
+    "qoute" : "In the maxim of the past you cannot go anywhere.",
+    "auther" : "Maxim Gorky"
+  },
+  {
+    "qoute" : "In the past, men created witches; now they create mental patients.",
+    "auther" : "Thomas Szasz"
+  },
+  {
+    "qoute" : "In the past, those who foolishly sought power by riding on the back of the tiger ended up inside.",
+    "auther" : "John F. Kennedy"
+  },
+  {
+    "qoute" : "Is the parent better than the child into whom he has cast his ripened being? Whence, then, this worship of the past?",
+    "auther" : "Ralph Waldo Emerson"
+  },
+  {
+    "qoute" : "It is not the literal past, the ''facts'' of history, that shape us, but images of the past embodied in language.",
+    "auther" : "Brian Friel"
+  },
+  {
+    "qoute" : "It isn't a matter of forgetting. What one has to learn is how to remember and yet be free of the past.",
+    "auther" : "Aldous Huxley"
+  },
+  {
+    "qoute" : "Leaders are the ones who keep faith with the past, keep step with the present and keep the promise to posterity.",
+    "auther" : "Harold J. Seymore"
+  },
+  {
+    "qoute" : "Like most of those who study history, he (Napoleon III) learned from the mistakes of the past how to make new ones.",
+    "auther" : "A. J. P. Taylor"
+  },
+  {
+    "qoute" : "Look back, and smile at perils past.",
+    "auther" : "Sir Walter Scott"
+  },
+  {
+    "qoute" : "Look back, and smile on perils past.",
+    "auther" : "Sir Walter Scott"
+  },
+  {
+    "qoute" : "Look to the past and remember no empire rises that sooner or later won't fall.",
+    "auther" : "Al Stewart"
+  },
+  {
+    "qoute" : "Losers live in the past. Winners learn from the past and enjoy working in the present toward the future.",
+    "auther" : "Denis Waitley"
+  },
+  {
+    "qoute" : "Man spends his life in reasoning on the past, in complaining of the present, in fearing future.",
+    "auther" : "Antoine Rivarol"
+  },
+  {
+    "qoute" : "Man... cannot learn to forget, but hangs on the past: however far or fast he runs, that chain runs with him.",
+    "auther" : "Friedrich Nietzsche"
+  },
+  {
+    "qoute" : "Many of us crucify ourselves between two thieves - regret for the past and fear of the future.",
+    "auther" : "Fulton Oursler"
+  },
+  {
+    "qoute" : "Most men pursue pleasure with such breathless haste that they hurry past it.",
+    "auther" : "Søren Kierkegaard"
+  },
+  {
+    "qoute" : "Most of the problems a President has to face have their roots in the past.",
+    "auther" : "Harry S. Truman"
+  },
+  {
+    "qoute" : "No facts are to me sacred; none are profane; I simply experiment, an endless seeker, with no past at my back.",
+    "auther" : "Ralph Waldo Emerson"
+  },
+  {
+    "qoute" : "No man is rich enough to buy back his own past.",
+    "auther" : "Oscar Wilde"
+  },
+  {
+    "qoute" : "No man is rich enough to buy back his past.",
+    "auther" : "Oscar Wilde"
+  },
+  {
+    "qoute" : "Nothing is improbable until it moves into past tense.",
+    "auther" : "George Ade"
+  },
+  {
+    "qoute" : "Nothing is to come, and nothing past: But an eternal now, does always last.",
+    "auther" : "Abraham Cowley"
+  },
+  {
+    "qoute" : "Nothing that was worthy in the past departs; no truth or goodness realized by man ever dies, or can die.",
+    "auther" : "Thomas Carlyle"
+  },
+  {
+    "qoute" : "One of the aged greatest miseries is that they cannot easily find a companion able to share the memories of the past.",
+    "auther" : "Samuel Johnson"
+  },
+  {
+    "qoute" : "One problem with gazing too frequently into the past is that we may turn around to find the future has run out on us.",
+    "auther" : "Michael Cibenko"
+  },
+  {
+    "qoute" : "One's past is what one is. It is the only way by which people should be judged.",
+    "auther" : "Oscar Wilde"
+  },
+  {
+    "qoute" : "Only by acceptance of the past, can you alter it.",
+    "auther" : "T. S. Eliot"
+  },
+  {
+    "qoute" : "Remembrance of things past.",
+    "auther" : "William Shakespeare"
+  },
+  {
+    "qoute" : "Right actions in the future are the best apologies for bad actions in the past.",
+    "auther" : "Tryon Edwards"
+  },
+  {
+    "qoute" : "Since grief only aggravates your loss, grieve not for what is past.",
+    "auther" : "Walker Percy"
+  },
+  {
+    "qoute" : "Study the past if you would divine the future.",
+    "auther" : "Confucius"
+  },
+  {
+    "qoute" : "Sweet is the memory of past troubles.",
+    "auther" : "Marcus Tullius Cicero"
+  },
+  {
+    "qoute" : "Take time to gather up the past so that you will be able to draw from your experience and invest them in the future.",
+    "auther" : "Jim Rohn"
+  },
+  {
+    "qoute" : "The age of chivalry is past. Bores have succeeded to dragons.",
+    "auther" : "Benjamin Disraeli"
+  },
+  {
+    "qoute" : "The best of prophets of the future is the past.",
+    "auther" : "Lord George Byron"
+  },
+  {
+    "qoute" : "The best way to suppose what may come, is to remember what is past.",
+    "auther" : "G.S. Halifax"
+  },
+  {
+    "qoute" : "The books one has written in the past have two surprises in store: one couldn't write them again, and wouldn't want to.",
+    "auther" : "Jean Rostand"
+  },
+  {
+    "qoute" : "The challenge of the unknown future is so much more exciting than the stories of the accomplished past.",
+    "auther" : "Simon Sinek"
+  },
+  {
+    "qoute" : "The cradle of the future is the grave of the past.",
+    "auther" : "Franz Grillparzer"
+  },
+  {
+    "qoute" : "The crux of the accounting problem with intangibles is that to know the past, one must know the future.",
+    "auther" : "Baruch Lev"
+  },
+  {
+    "qoute" : "The darkest day, If you live till tomorrow will have past away.",
+    "auther" : "William Cowper"
+  },
+  {
+    "qoute" : "The destruction of the past is perhaps the greatest of all crimes.",
+    "auther" : "Simone Weil"
+  },
+  {
+    "qoute" : "The diseases of the present have little in common with the diseases of the past save that we die of them.",
+    "auther" : "Agnes Repplier"
+  },
+  {
+    "qoute" : "The distinction between the past, present and future is only a stubbornly persistent illusion.",
+    "auther" : "Albert Einstein"
+  },
+  {
+    "qoute" : "The essence of statesmanship is not a rigid adherence to the past, but a prudent and probing concern for the future.",
+    "auther" : "Hubert Humphrey"
+  },
+  {
+    "qoute" : "The essence of statesmanship is not a rigid adherence to the past, but a prudent and probing concern for the future.",
+    "auther" : "Hubert H. Humphrey"
+  },
+  {
+    "qoute" : "The farther behind I leave the past, the closer I am to forging my own character.",
+    "auther" : "Isabelle Eberhardt"
+  },
+  {
+    "qoute" : "The first recipe for happiness is: Avoid too lengthy meditation on the past.",
+    "auther" : "Andre Maurois"
+  },
+  {
+    "qoute" : "The first recipe for happiness is: Avoid too lengthy meditation on the past.",
+    "auther" : "Andre Maurois"
+  },
+  {
+    "qoute" : "The free world must not prove itself worthy of its own past.",
+    "auther" : "Dwight D. Eisenhower"
+  },
+  {
+    "qoute" : "The future comes slowly, the present flies and the past stands still forever.",
+    "auther" : "Friedrich von Schiller"
+  },
+  {
+    "qoute" : "The future influences the present just as much as the past.",
+    "auther" : "Friedrich Nietzsche"
+  },
+  {
+    "qoute" : "The history of the past interests us only in so far as it illuminates the history of the present.",
+    "auther" : "Ernest Dimnet"
+  },
+  {
+    "qoute" : "The human race was always interesting and we know by its past that it will always continue so, monotonously.",
+    "auther" : "Mark Twain"
+  },
+  {
+    "qoute" : "The lessons of the past are ignored and obliterated in a contemporary antagonism known as the generation gap.",
+    "auther" : "Spiro T. Agnew"
+  },
+  {
+    "qoute" : "The mind of man is capable of anything - because everything is in it, all the past as well as all the future.",
+    "auther" : "Joseph Conrad"
+  },
+  {
+    "qoute" : "The more anger towards the past you carry in your heart, the less capable you are of loving in the present.",
+    "auther" : "Barbara de Angelis"
+  },
+  {
+    "qoute" : "The most conservative persons I ever met are college undergraduates. The radicals are the men past middle life.",
+    "auther" : "Woodrow Wilson"
+  },
+  {
+    "qoute" : "The only difference between the saint and the sinner is that every saint has a past, and every sinner has a future.",
+    "auther" : "Oscar Wilde"
+  },
+  {
+    "qoute" : "The past actually happened but history is only what someone wrote down.",
+    "auther" : "A. Whitney Brown"
+  },
+  {
+    "qoute" : "The past always looks better than it was because it isn't here.",
+    "auther" : "Finley Peter Dunne"
+  },
+  {
+    "qoute" : "The past cannot be changed. The future is yet in your power.",
+    "auther" : "Mary Pickford"
+  },
+  {
+    "qoute" : "The past does not equal the future.",
+    "auther" : "Anthony Robbins"
+  },
+  {
+    "qoute" : "The past grows gradually around one, like a placenta for dying.",
+    "auther" : "John Berger"
+  },
+  {
+    "qoute" : "The past is a ghost, the future a dream, and all we ever have is now.",
+    "auther" : "Bill Cosby"
+  },
+  {
+    "qoute" : "The past is all holy to us; the dead are all holy; even they that were wicked when alive.",
+    "auther" : "Thomas Carlyle"
+  },
+  {
+    "qoute" : "The past is at least secure.",
+    "auther" : "Daniel Webster"
+  },
+  {
+    "qoute" : "The past is not a package one can lay away.",
+    "auther" : "Emily Dickinson"
+  },
+  {
+    "qoute" : "The past is prophetic in that it asserts loudly that wars are poor chisels for carving out peaceful tomorrows.",
+    "auther" : "Martin Luther King"
+  },
+  {
+    "qoute" : "The past is the only dead thing that smells sweet.",
+    "auther" : "Edward Thomas"
+  },
+  {
+    "qoute" : "The past is the teat that feeds those too weak to face the future",
+    "auther" : "Dean Koontz"
+  },
+  {
+    "qoute" : "The past should be a springboard, not a hammock.",
+    "auther" : "Ivern Ball"
+  },
+  {
+    "qoute" : "The past was erased, the erasure was forgotten, the lie became the truth.",
+    "auther" : "George Orwell"
+  },
+  {
+    "qoute" : "The past, like the future, is indefinite and exists only as a spectrum of possibilities.",
+    "auther" : "Stephen Hawking"
+  },
+  {
+    "qoute" : "The people who get into trouble in our company are those who carry around the anchor of the past.",
+    "auther" : "John Welch"
+  },
+  {
+    "qoute" : "The present contains nothing more than the past, and what is found in the effect was already in the cause.",
+    "auther" : "Henri L. Bergson"
+  },
+  {
+    "qoute" : "The present is just an instant between past and future",
+    "auther" : "Dean Koontz"
+  },
+  {
+    "qoute" : "The present is the funeral of the past, and man the living sepulchre of life.",
+    "auther" : "J. Clare"
+  },
+  {
+    "qoute" : "The promise given was a necessity of the past: the word broken is a necessity of the present.",
+    "auther" : "Machiavelli"
+  },
+  {
+    "qoute" : "The reading of all good books is like a conversation with all the finest men of past centuries.",
+    "auther" : "René Descartes"
+  },
+  {
+    "qoute" : "The thought of our past years in me doth breed perpetual benedictions.",
+    "auther" : "William Wordsworth"
+  },
+  {
+    "qoute" : "The whole past is the procession of the present.",
+    "auther" : "Thomas Carlyle"
+  },
+  {
+    "qoute" : "There are certain moments when we might wish the future were built by men of the past.",
+    "auther" : "Jean Rostand"
+  },
+  {
+    "qoute" : "There are people who have benefited from therapy without being confronted with the past at all.",
+    "auther" : "Alice Miller"
+  },
+  {
+    "qoute" : "There is a way to look at the past. Don't hide from it. It will not catch you - if you don't repeat it.",
+    "auther" : "Pearl Bailey"
+  },
+  {
+    "qoute" : "There is no past, so long as books shall live!",
+    "auther" : "Edward Bulwer-Lytton"
+  },
+  {
+    "qoute" : "There is no time of life past learning something.",
+    "auther" : "St. Ambrose of Milan"
+  },
+  {
+    "qoute" : "There is pleasure in calm remembrance of a past sorrow.",
+    "auther" : "Marcus Tullius Cicero"
+  },
+  {
+    "qoute" : "There's no present. There's only the immediate future and the recent past.",
+    "auther" : "George Carlin"
+  },
+  {
+    "qoute" : "They spend their time looking forward to the past.",
+    "auther" : "John Osborne"
+  },
+  {
+    "qoute" : "Think only of the past as its remembrance gives you pleasure.",
+    "auther" : "Jane Austen"
+  },
+  {
+    "qoute" : "Those who cannot remember the past are condemned to repeat it.",
+    "auther" : "George Santayana"
+  },
+  {
+    "qoute" : "Time past and time future what might have been and what has been point to one end, which is always present.",
+    "auther" : "T. S. Eliot"
+  },
+  {
+    "qoute" : "To a father, when a child dies, the future dies; to a child when a parent dies, the past dies.",
+    "auther" : "Red Auerbach"
+  },
+  {
+    "qoute" : "To design the future effectively, you must first let go of your past.",
+    "auther" : "Charles J. Givens"
+  },
+  {
+    "qoute" : "To mourn a mischief that is past and gone is the next way to draw new mischief on.",
+    "auther" : "William Shakespeare"
+  },
+  {
+    "qoute" : "To what a degree the same past can leave different marks - and especially admit of different interpretations.",
+    "auther" : "André Gide"
+  },
+  {
+    "qoute" : "Traditionalists are pessimists about the future and optimists about the past.",
+    "auther" : "Lewis Mumford"
+  },
+  {
+    "qoute" : "Upper classes are a nation's past, the middle class its future.",
+    "auther" : "Ayn Rand"
+  },
+  {
+    "qoute" : "Use the losses and failures of the past as a reason for action, not inaction.",
+    "auther" : "Charles J. Givens"
+  },
+  {
+    "qoute" : "View the past as your enemy, and it will be an albatross.",
+    "auther" : "Alan Cohen"
+  },
+  {
+    "qoute" : "We are made wise not by the recollection of our past, but by the responsibility for our future.",
+    "auther" : "George Bernard Shaw"
+  },
+  {
+    "qoute" : "We are not animals. We are not a product of what has happened to us in our past. We have the power of choice.",
+    "auther" : "Stephen Covey"
+  },
+  {
+    "qoute" : "We live in the present, we dream of the future and we learn eternal truths from the past.",
+    "auther" : "Madame Chiang Kai-Shek"
+  },
+  {
+    "qoute" : "We make way for the man who boldly pushes past us.",
+    "auther" : "Christian Nevell Bovee"
+  },
+  {
+    "qoute" : "We must set up a strong present tense against all rumors of wrath, past and to come.",
+    "auther" : "Ralph Waldo Emerson"
+  },
+  {
+    "qoute" : "Well, the future for me is already a thing of the past.",
+    "auther" : "Bob Dylan"
+  },
+  {
+    "qoute" : "What is past is past, there is a future left to all men, who have the virtue to repent and the energy to atone.",
+    "auther" : "Edward Bulwer-Lytton"
+  },
+  {
+    "qoute" : "Whatever has happened to you in your past has no power over this present moment, because life is now.",
+    "auther" : "Oprah Winfrey"
+  },
+  {
+    "qoute" : "When much dispute has past, we find our tenets just the same as last.",
+    "auther" : "Alexander Pope"
+  },
+  {
+    "qoute" : "When the past no longer illuminates the future, the spirit walks in darkness.",
+    "auther" : "Alexis de Tocqueville"
+  },
+  {
+    "qoute" : "Where the mind is past hope, the heart is past shame.",
+    "auther" : "John Lyly"
+  },
+  {
+    "qoute" : "While I take inspiration from the past, like most Americans, I live for the future.",
+    "auther" : "Ronald Reagan"
+  },
+  {
+    "qoute" : "Who controls the past controls the future: who controls the present controls the past.",
+    "auther" : "George Orwell"
+  },
+  {
+    "qoute" : "Who controls the past, controls the future. Who controls the present, controls the past.",
+    "auther" : "George Orwell"
+  },
+  {
+    "qoute" : "Who lets slip fortune, her shall never find: Occasion once past by, is bald behind.",
+    "auther" : "Abraham Cowley"
+  },
+  {
+    "qoute" : "Winners must learn to relish change with the same enthusiasm and energy that we have resisted it in the past.",
+    "auther" : "Thomas J. Peters"
+  },
+  {
+    "qoute" : "Wisdom is the abstract of the past, but beauty is the promise of the future.",
+    "auther" : "Oliver Wendell Holmes"
+  },
+  {
+    "qoute" : "With the past, I have nothing to do; nor with the future. I live now.",
+    "auther" : "Ralph Waldo Emerson"
+  },
+  {
+    "qoute" : "Without libraries what have we? We have no past and no future.",
+    "auther" : "Ray Bradbury"
+  },
+  {
+    "qoute" : "Writers are the main landmarks of the past.",
+    "auther" : "Edward Bulwer-Lytton"
+  },
+  {
+    "qoute" : "You are always free to change your mind and choose a different future, or a different past.",
+    "auther" : "Richard Bach"
+  },
+  {
+    "qoute" : "You can never plan the future by the past.",
+    "auther" : "Edmund Burke"
+  },
+  {
+    "qoute" : "You can't bring back the past, and you're not promised the future, so enjoy life now.",
+    "auther" : "Kimo Paki"
+  },
+  {
+    "qoute" : "You can't undo the past... but you can certainly not repeat it.",
+    "auther" : "Bruce Willis"
+  },
+  {
+    "qoute" : "You change the past when you change the way you see it.",
+    "auther" : "Alan Cohen"
+  },
+  {
+    "qoute" : "You learn from a conglomeration of the incredible past - whatever experience gotten in any way whatsoever.",
+    "auther" : "Bob Dylan"
+  },
+  {
+    "qoute" : "You must learn from your past mistakes, but not lean on your past successes.",
+    "auther" : "Denis Waitley"
+  },
+  {
+    "qoute" : "Your past is important, but it is not nearly as important to your present as the way you see your future.",
+    "auther" : "Tony Campolo"
+  },
+  {
+    "qoute" : "Your past is not your potential. In any hour you can choose to liberate the future.",
+    "auther" : "Marilyn Ferguson"
+  },
+  {
+    "qoute" : "Your successful past will block your visions of the future.",
+    "auther" : "Joel A. Barker"
+  }
+]

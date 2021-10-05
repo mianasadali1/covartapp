@@ -1,0 +1,618 @@
+[
+  {
+    "qoute" : "A foolishness is inflicted with a hatred of itself.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "A great fortune is a great slavery.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Anger is like those ruins which smash themselves on what they fall.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is more fitting for a man to laugh at life than to lament over it.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "What were once vices are the fashion of the day.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "A gift consists not in what is done or given, but in the intention of the giver or doer.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "A happy life is one which is in accordance with its own nature.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "A large part of mankind is angry not with the sins, but with the sinners.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "A man who suffers before it is necessary, suffers more than is necessary.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "A person's fears are lighter when the danger is at hand.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "A punishment to some, to some a gift, and to many a favor.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "A quarrel is quickly settled when deserted by one party; there is no battle unless there be two.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "A well governed appetite is the greater part of liberty.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "All art is an imitation of nature.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "All cruelty springs from weakness.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Anger, if not restrained, is frequently more hurtful to us than the injury that provokes it.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Anger: an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Authority founded on injustice is never of long duration.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Believe me, that was a happy age, before the days of architects, before the days of builders.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Brave men rejoice in adversity, just as brave soldiers triumph in war.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Calamity is virtue's opportunity.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Constant exposure to dangers will breed contempt for them.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Courage leads to heaven; fear leads to death.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Crime when it succeeds is called virtue.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Death is the wish of some, the relief of many, and the end of all.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Difficulties strengthen the mind, as labor does the body.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Disease is not of the body but of the place.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Do everything as in the eye of another.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Do not ask for what you will wish you had not got.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Drunkenness is nothing but voluntary madness.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Economy is too late when you are at the bottom of your purse.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Enjoy present pleasures in such a way as not to injure future ones.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Even if it is to be, what end do you serve by running to distress?",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Every guilty person is his own hangman.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Fate leads the willing, and drags along the reluctant.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Fate rules the affairs of men, with no recognizable order.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Fidelity purchased with money, money can destroy.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Fire is the test of gold; adversity, of strong men.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "For greed all nature is too little.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Fortune can take away riches, but not courage.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Friendship always benefits; love sometimes injures.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "He has committed the crime who profits by it.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "He is a king who fears nothing, he is a king who desires nothing!",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "He is the most powerful who has himself, in his power.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "He that does good to another does good also to himself.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "He who boasts of his descent, praises the deed of another.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "He who dreads hostility too much is unfit to rule.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "He who is brave is free.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "He who repents of having sinned is almost innocent.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "I shall never be ashamed of citing a bad author if the line is good.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "If a man does not know what port he is steering for, no wind is favorable to him.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "If a man knows not what harbor he seeks, any wind is the right wind.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "If sensuality were happiness, beasts were happier than men; but human felicity is lodged in the soul, not in the flesh.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "If thou art a man, admire those who attempt great things, even though they fail.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "If you judge, investigate.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "If you sit in judgment, investigate, if you sit in supreme power, sit in command.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "If you wish to be loved; Love!",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "If you would judge, understand.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is medicine, not scenery, for which a sick man must go searching.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is not the man who has too little, but the man who craves more, that is poor.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is often better not to see an insult than to avenge it.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is part of the cure to wish to be cured.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is quality rather than quantity that matters.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is the constant fault and inseparable evil quality of ambition, that it never looks behind it.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is the failing of youth not to be able to restrain its own violence.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is the sign of a great mind to dislike greatness, and prefer things in measure to things in excess.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is the superfluous things for which men sweat.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It is true greatness to have in one the frailty of a man and the security of a god.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It makes a great deal of difference whether one wills not to sin or has not the knowledge to sin.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "It's the admirer and the watcher who provoke us to all the inanities we commit.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Leisure without literature is death and burial alive.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Let us train our minds to desire what the situation demands.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Life is warfare.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Many shed tears merely for show, and have dry eyes when no one's around to observe them.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "May be is very well, but Must is the master. It is my duty to show justice without recompense.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Modesty forbids what the law does not.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Most powerful is he who has himself in his own power.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Night brings our troubles to the light, rather than banishes them.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "No action will be considered blameless, unless the will was so, for by the will the act was dictated.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "No evil propensity of the human heart is so powerful that it may mot be subdued by discipline.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "No one can be despised by another until he has learned to despise himself.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "No one is better born than another, unless they are born with better abilities and a more amiable disposition.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "No one is laughable who laughs at himself.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "No untroubled day has ever dawned for me.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Not he who has little, but he whose wishes more, is poor.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Not how long, but how well you have lived is the main thing.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Nothing is so contemptible as the sentiments of the mob.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Nothing is void of God, his work is everywhere his full of himself.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "One crime has to be concealed by another.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Other men's sins are before our eyes; our own are behind our backs.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Philosophy does not regard pedigree, she received Plato not as a noble, but she made him one.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Remove severe restraint and what will become of virtue?",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "See how many are better off than you are, but consider how many are worse.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Shame may restrain what law does not prohibit.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Slavery takes hold of few, but many take hold of slavery.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "So enjoy present pleasures as to not mar those to come.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "So live with men as if God saw you and speak to God, as if men heard you.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Sovereignty over any foreign land is insecure.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Success consecrates the most offensive crimes.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Success is not greedy, as people think, but insignificant. That is why it satisfies nobody.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "That is never too often repeated, which is never sufficiently learned.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "That which is given with pride and ostentation is rather an ambition than a bounty.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The approach of liberty makes even an old man brave.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The bravest sight in the world is to see a great man struggling against adversity.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The courts of kings are full of people, but empty of friends.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The deferring of anger is the best antidote to anger.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The display of grief makes more demands than grief itself. How few men are sad in their own company.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The fates lead the willing, and drag the unwilling.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The first and greatest punishment of the sinner is the conscience of sin.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The first step in a person's salvation is knowledge of their sin.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The foremost art of kings is the ability to endure hatred.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The good things of prosperity are to be wished; but the good things that belong to adversity are to be admired.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The greatest remedy for anger is delay.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The mind that is anxious about the future is miserable.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The pleasures of the palate deal with us like the Egyptian thieves, who strangle those whom they embrace.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The pressure of adversity does not affect the mind of the brave man. It is more powerful than external circumstances.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The road to learning by precept is long, but by example short and effective.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "The sun also shines on the wicked.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "There are more things to alarm us than to harm us, and we suffer more often in apprehension than reality.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "There are no greater wretches in the world than many of those whom people in general take to be happy.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "There is a noble manner of being poor, and who does not know it will never be rich.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "There is as much greatness of mind in acknowledging a good turn, as in doing it.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "There is no delight in owning anything unshared.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "There is no person so severely punished, as those who subject themselves to the whip of their own remorse.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "There is nothing in the world so much admired as a man who knows how to bear unhappiness with courage.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "There's one blessing only, the source and cornerstone of beatitude - confidence in self.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Things that were hard to bear are sweet to remember.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Those that are a friend to themselves are sure to be a friend to all.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Those who boast of their decent, brag on what they owe to others.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Those whom true love has held, it will go on holding.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Time discovered truth.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "To keep oneself safe does not mean to bury oneself.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "We are more often frightened than hurt; and we suffer more from imagination than from reality.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "We never reflect how pleasant it is to ask for nothing.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "We often want one thing and pray for another, not telling the truth even to the gods.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "What difference does it make how much you have? What you do not have amounts to much more.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "What is true belongs to me!",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "What once were vices are manners now.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "What was hard to suffer is sweet to remember.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Whatever has overstepped its due bounds is always in a state of instability.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Whatever is well said by another, is mine.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "When an author is too meticulous about his style, you may presume that his mind is frivolous and his content flimsy.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "When ever the speech is corrupted so is the mind.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "When I think over what I have said, I envy dumb people.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Whenever you hold a fellow creature in distress, remember that he is a man.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Where the fear is, happiness is not.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Wherever there is a human being there is an opportunity for kindness",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "While we are postponing, life speeds by.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Who can hope for nothing, should despair for nothing.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "Why do I not seek some real good; one which I could feel, not one which I could display?",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "You can tell the character of every man when you see how he receives praise.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "You must live for another if you wish to live for yourself.",
+    "auther" : "Seneca"
+  },
+  {
+    "qoute" : "But it is a pretty thing to see what money will do!",
+    "auther" : "Seneca"
+  }
+]

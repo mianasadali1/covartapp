@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FilterCollectionCell" customModule="FMPhotoPickerExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="62" height="62"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="62" height="62"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbo-oL-Qez">
+                        <rect key="frame" x="0.0" y="0.0" width="62" height="62"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h7G-FH-I4i">
+                                <rect key="frame" x="18.5" y="5" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="h7G-FH-I4i" secondAttribute="height" multiplier="1:1" id="CxE-Bb-TWb"/>
+                                    <constraint firstAttribute="width" constant="25" id="SQn-Z1-7Hf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUV-Dx-C7L">
+                                <rect key="frame" x="18.5" y="42" width="25" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.039215686270000001" green="0.070588235289999995" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QUV-Dx-C7L" secondAttribute="trailing" constant="5" id="4Ud-Ji-rfX"/>
+                            <constraint firstAttribute="bottom" secondItem="QUV-Dx-C7L" secondAttribute="bottom" constant="5" id="9ci-o6-Z6I"/>
+                            <constraint firstItem="QUV-Dx-C7L" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hbo-oL-Qez" secondAttribute="leading" constant="5" id="CcQ-ui-ISK"/>
+                            <constraint firstItem="h7G-FH-I4i" firstAttribute="top" secondItem="hbo-oL-Qez" secondAttribute="top" constant="5" id="VDo-E7-1E5"/>
+                            <constraint firstItem="h7G-FH-I4i" firstAttribute="centerX" secondItem="hbo-oL-Qez" secondAttribute="centerX" id="cRY-uh-gGn"/>
+                            <constraint firstItem="QUV-Dx-C7L" firstAttribute="top" secondItem="h7G-FH-I4i" secondAttribute="bottom" constant="12" id="x1b-xm-YiA"/>
+                            <constraint firstItem="QUV-Dx-C7L" firstAttribute="centerX" secondItem="hbo-oL-Qez" secondAttribute="centerX" id="xer-QL-jby"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hbo-oL-Qez" secondAttribute="bottom" id="15N-37-rpR"/>
+                <constraint firstItem="hbo-oL-Qez" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ru4-5w-CY3"/>
+                <constraint firstItem="hbo-oL-Qez" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Wpo-ug-20C"/>
+                <constraint firstAttribute="trailing" secondItem="hbo-oL-Qez" secondAttribute="trailing" id="kMi-w1-8h6"/>
+            </constraints>
+            <size key="customSize" width="83" height="65"/>
+            <connections>
+                <outlet property="imgIcon" destination="h7G-FH-I4i" id="AV6-t8-4h8"/>
+                <outlet property="lblTitle" destination="QUV-Dx-C7L" id="D8J-GM-nIE"/>
+            </connections>
+            <point key="canvasLocation" x="144.92753623188406" y="108.48214285714285"/>
+        </collectionViewCell>
+    </objects>
+</document>

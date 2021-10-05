@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ToolId</key>
+		<string>ChooseImage</string>
+		<key>ToolName</key>
+		<string>Image</string>
+		<key>ToolIcon</key>
+		<string>icImage</string>
+		<key>Title</key>
+		<string>Image</string>
+	</dict>
+	<dict>
+		<key>ToolId</key>
+		<string>EffectTool</string>
+		<key>ToolName</key>
+		<string>EffectTool</string>
+		<key>ToolIcon</key>
+		<string>icEffect</string>
+		<key>Title</key>
+		<string>Effects</string>
+	</dict>
+	<dict>
+		<key>ToolId</key>
+		<string>CLTextTool</string>
+		<key>ToolName</key>
+		<string>CLTextTool</string>
+		<key>ToolIcon</key>
+		<string>text</string>
+		<key>Title</key>
+		<string>Text</string>
+	</dict>
+	<dict>
+		<key>ToolId</key>
+		<string>CLVideoTool</string>
+		<key>ToolName</key>
+		<string>CLVideoTool</string>
+		<key>ToolIcon</key>
+		<string>icVideo</string>
+		<key>Title</key>
+		<string>Video</string>
+	</dict>
+	<dict>
+		<key>ToolId</key>
+		<string>OverlayTool</string>
+		<key>ToolName</key>
+		<string>OverlayTool</string>
+		<key>ToolIcon</key>
+		<string>icOverlay</string>
+		<key>Title</key>
+		<string>Overlay</string>
+		<key>subTools</key>
+		<array/>
+	</dict>
+</array>
+</plist>

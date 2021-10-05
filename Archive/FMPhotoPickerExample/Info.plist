@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Photo Effect Enhancer Pro</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-4618660522470619~1176524062</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>This app wants to accss your camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app wants to accss your photo gallery</string>
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>4fzdc2evr5.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>2fnua5tdw4.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>ydx93a7ass.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>5a6flpkh64.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>p78axxw29g.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>v72qych5uu.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>c6k4g5qg8m.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>s39g8k73mm.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>3qy4746246.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>3sh42y64q3.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>f38h382jlk.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>hs6bdukanm.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>prcb7njmu6.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>wzmmz9fp6w.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>yclnxrl5pm.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>4468km3ulz.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>t38b2kh725.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>7ug5zh24hu.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>9rd848q2bz.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>n6fk4nfna4.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>kbd757ywx3.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>9t245vhmpl.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>2u9pt9hc89.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>8s468mfl3y.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>av6w8kgt66.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>klf5c3l5u5.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>ppxm28t8ap.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>424m5254lk.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>uw77j35x4d.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>e5fvkxwrpn.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>zq492l623r.skadnetwork</string>
+		</dict>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>3qcr597p9d.skadnetwork</string>
+		</dict>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MacLaurent.ttf</string>
+		<string>BeMineFont-Regular.otf</string>
+		<string>Adventures in the Snow Font.otf</string>
+		<string>Agendra Serif Font.otf</string>
+		<string>Air Balloon Font.otf</string>
+		<string>Alexandia Script Font.otf</string>
+		<string>Alone Together Font.otf</string>
+		<string>Always Sans Font.otf</string>
+		<string>Always Script Font.otf</string>
+		<string>Amelia Ornaments.otf</string>
+		<string>Amelia Script.otf</string>
+		<string>Another Brother Font.otf</string>
+		<string>Avocado Sans Bold.otf</string>
+		<string>Avocado Sans Regular.otf</string>
+		<string>MidnightRider-Regular.ttf</string>
+		<string>MonCheri.otf</string>
+		<string>Ornette Printed.ttf</string>
+		<string>Patrick.otf</string>
+		<string>Reef.otf</string>
+		<string>SunriseWaves.ttf</string>
+		<string>Tiki Tropic Bold.ttf</string>
+		<string>TrueSketchIt.ttf</string>
+		<string>TrueSketchRg.ttf</string>
+		<string>zelda bold grunge.ttf</string>
+		<string>zelda bold.ttf</string>
+		<string>Adilla and Rita.ttf</string>
+		<string>Apashy.ttf</string>
+		<string>blacky regular.otf</string>
+		<string>blacky shadow.otf</string>
+		<string>BouldenGrunge.otf</string>
+		<string>Herbert Lemuel Outline.ttf</string>
+		<string>Herbert Lemuel Regular.ttf</string>
+		<string>Herbert Lemuel Bold.ttf</string>
+		<string>Herbert Lemuel Dots.ttf</string>
+		<string>Buffalo-Regular.otf</string>
+		<string>CircusFreak-Lines.otf</string>
+		<string>Herbert Lemuel Sans.ttf</string>
+		<string>kust-extended.ttf</string>
+		<string>Lady Rose.ttf</string>
+		<string>CircusFreak-Regular.otf</string>
+		<string>CircusFreak-Shadow.otf</string>
+		<string>CircusFreak-ShadowStroke.otf</string>
+		<string>FiestaColor.otf</string>
+		<string>Grandesa.otf</string>
+		<string>Herbert Lemuel Bold Shadow</string>
+		<string>Carosello-Regular.ttf</string>
+		<string>Catalina_Typewriter_Bold-Italic.ttf</string>
+		<string>Catalina_Typewriter_Bold.ttf</string>
+		<string>Catalina_Typewriter_Light-Italic.ttf</string>
+		<string>Catalina_Typewriter_Light.ttf</string>
+		<string>Catalina_Typewriter_Regular-Italic.ttf</string>
+		<string>Catalina_Typewriter_Regular.ttf</string>
+		<string>BROTHER-Bold.ttf</string>
+		<string>BRIGHTSIGHT02.ttf</string>
+		<string>BouldenShadow.otf</string>
+		<string>BouldenRegular.otf</string>
+		<string>POPCO SCKETCH trial___.otf</string>
+		<string>POPCORN trial_.otf</string>
+		<string>Action Is, Shaded JL</string>
+		<string>actionis.ttf</string>
+		<string>brookeshappelldots.ttf</string>
+		<string>Candy Town.otf</string>
+		<string>CFNeverTrustAHippy-Regular.ttf</string>
+		<string>TigerBalloon-Regular.ttf</string>
+		<string>RumbleweedSpur-Regular.otf</string>
+		<string>shagade.ttf</string>
+		<string>dreamlan.ttf</string>
+		<string>dreamlas.ttf</string>
+		<string>Namskin.otf</string>
+		<string>Namskout.otf</string>
+		<string>NamskoutIn.otf</string>
+		<string>Stars.ttf</string>
+		<string>Anywhere But Home.ttf</string>
+		<string>Cooperation Nest.otf</string>
+		<string>PleasinglyPlumpNF.ttf</string>
+		<string>electrical.ttf</string>
+		<string>Mama Regular.ttf</string>
+		<string>Massacre.ttf</string>
+		<string>SucroseBoldTwoDEMO.otf</string>
+		<string>Discoteque St.ttf</string>
+		<string>DISKOPIA2.0.ttf</string>
+		<string>SFCollegiateSolid.ttf</string>
+		<string>PLEASING.TTF</string>
+		<string>RoonaSansBl_PERSONAL_USE.ttf</string>
+		<string>Vermin Vibes 2 Black.otf</string>
+		<string>AlimentThin_PERSONAL_USE.ttf</string>
+		<string>AlimentMedium_PERSONAL_USE.ttf</string>
+		<string>AlimentLight_PERSONAL_USE.ttf</string>
+		<string>AlimentBold_PERSONAL_USE.ttf</string>
+		<string>AlimentBlack_PERSONAL_USE.ttf</string>
+		<string>RoonaSansBlit_PERSONAL_USE.ttf</string>
+		<string>Teenage Dreams.otf</string>
+		<string></string>
+		<string>Super Retro M54.ttf</string>
+		<string></string>
+		<string></string>
+		<string>teaspoon.ttf</string>
+		<string>MediaBlackoutDEMO.otf</string>
+		<string></string>
+		<string>Super Retro Italic M54.ttf</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+</dict>
+</plist>
