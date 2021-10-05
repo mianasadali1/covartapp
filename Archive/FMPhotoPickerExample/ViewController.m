@@ -16,7 +16,7 @@
 #import "Constant.h"
 #import "StartPageViewController.h"
 
-@interface ViewController () <FilteredImage, SelectNewImageDelegate>
+@interface ViewController () <FilteredImage, SelectNewImageDelegate, LayersUpdatedScrollView>
 
 
 @property (nonatomic, strong, readwrite) CLImageToolBase *currentTool;
@@ -25,6 +25,22 @@
 @end
 
 @implementation ViewController
+
+- (void)scrollViewLayersUpdatesWithScrollView:(UIScrollView *)scrollView {
+//    for(UIView *sub in self.scrollView.subviews){ [sub removeFromSuperview]; }
+    self.scrollView = scrollView;
+
+    for(UIView *sub in self.scrollView.subviews){
+        if ([sub isKindOfClass:[UIImageView class]]) {
+            UIImageView *imageView = (UIImageView *)sub;
+            self.originalImage = imageView.image;
+            break;
+        }
+    }
+//    _originalImage = [UIImage new];
+//    self.originalImage = image;
+//    [self refreshImageView];
+}
 
 - (void)selecteNewImageGallery:(UIImage *)image {
     self.originalImage = image;
@@ -67,17 +83,6 @@
                                              selector:@selector(imageChangedNotification:)
                                           name:@"ImageChangedNotification"
                                           object:nil];
-
-//    GADRequest *request = [GADRequest request];
-//    [GADInterstitialAd loadWithAdUnitID:@"ca-app-pub-4618660522470619/7739090658"
-//                                request:request
-//                      completionHandler:^(GADInterstitialAd *ad, NSError *error) {
-//      if (error) {
-//        NSLog(@"Failed to load interstitial ad with error: %@", [error localizedDescription]);
-//        return;
-//      }
-//      self.interstitial = ad;
-//    }];
     [self.viewAlignment setHidden:YES];
     [self.viewWaterMarkSelection setHidden:YES];
     [self.imageViewWaterMark setHidden:YES];
@@ -89,49 +94,6 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     self.navigationController.navigationBar.hidden = true;
-//    [self.navigationController setNavigationBarHidden:false animated:true];
-//    [self.navigationController.navigationBar setTranslucent:false];
-//    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
-//    UINavigationBar *bar = [self.navigationController navigationBar];
-//    [bar setTintColor:[UIColor whiteColor]];
-//    [bar setBackgroundColor:[UIColor whiteColor]];
-//    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
-//    [[UINavigationBar appearance] setBackgroundColor:[UIColor whiteColor]];
-
-//    UIBarButtonItem *space1 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
-//    space1.width = 60;
-//    UIBarButtonItem *btnProject = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"icFolder"] style:UIBarButtonItemStylePlain target:nil action:nil];
-//    UIBarButtonItem *btnUndo = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"icUndo"] style:UIBarButtonItemStylePlain target:nil action:nil];
-////    [[self.navigationController navigationItem] setLeftBarButtonItems:[btnProject]];
-//    NSMutableArray *items = [NSMutableArray arrayWithArray:self.navigationItem.leftBarButtonItems];
-//    [items addObject:btnProject];
-//    [items addObject:space1];
-//    [items addObject:btnUndo];
-//    self.navigationItem.leftBarButtonItems = items;
-//
-//    UIBarButtonItem *space2 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
-//    space1.width = 60;
-//    UIBarButtonItem *btnLayers = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"icLayers"] style:UIBarButtonItemStylePlain target:nil action:nil];
-//    UIBarButtonItem *btnNext = [[UIBarButtonItem alloc] initWithTitle:@"Next" style:UIBarButtonItemStylePlain target:nil action:nil];
-////    [[self.navigationController navigationItem] setLeftBarButtonItems:[btnProject]];
-//    NSMutableArray *itemsRight = [NSMutableArray arrayWithArray:self.navigationItem.leftBarButtonItems];
-//    [itemsRight addObject:btnNext];
-//    [itemsRight addObject:space2];
-//    [itemsRight addObject:btnLayers];
-//    self.navigationItem.rightBarButtonItems = itemsRight;
-//    [self.navigationController.navigationBar setBackgroundImage:[UIImage init] forBarMetrics:UIBarMetricsDefault];
-//    [self.navigationController.navigationBar layoutIfNeeded];
-//    let space2 = UIBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil, action: nil)
-//    space2.width = 60
-//    let btnLayers = UIBarButtonItem(image: #imageLiteral(resourceName: "icLayers"), style: .plain, target: self, action: #selector(actionButtonLayers(_:)))
-//    let btnNext = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(actionButtonNext(_:)))
-//    btnNext.tintColor = .white
-//    self.navigationItem.addMutipleItemsToRight(items: [btnNext, space2, btnLayers])
-//
-//    self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-//    self.navigationController?.navigationBar.shadowImage = UIImage()
-//    self.navigationController?.navigationBar.layoutIfNeeded()
-
 }
 
 -(void)viewDidLayoutSubviews{
@@ -142,7 +104,7 @@
 }
 
 - (void)refreshImageView{
-    for(UIView *sub in self.scrollView.subviews){ [sub removeFromSuperview]; }
+//    for(UIView *sub in self.scrollView.subviews){ [sub removeFromSuperview]; }
 
     _imageView = [UIImageView new];
     [self.scrollView addSubview:_imageView];
@@ -538,6 +500,8 @@
     UIStoryboard * storyboard                   =   [UIStoryboard storyboardWithName:storyboardName bundle:nil];
     LayersVC * layersVC         =   [storyboard instantiateViewControllerWithIdentifier:viewControllerID];
     layersVC.originalImage = _originalImage;
+    layersVC.delegate = self;
+    layersVC.scrollView = self.scrollView;
     [self.navigationController pushViewController:layersVC animated:true];
 }
 

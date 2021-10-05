@@ -8,6 +8,10 @@
 
 import UIKit
 
+@objc public protocol LayersUpdatedScrollView: class {
+    func scrollViewLayersUpdates(scrollView: UIScrollView)
+}
+
 class LayerCell: UITableViewCell {
     
     //MARK: - Outlets
@@ -38,18 +42,33 @@ class LayersVC: UIViewController {
     
     //MARK: - Outlets
     @IBOutlet weak var tblLayer: UITableView!
+    @objc weak var delegate: LayersUpdatedScrollView?
     
     //MARK: - Variables
     var arrLayers = [String]()
     var selectedDeleteIndex: Int = -1
     @objc var originalImage: UIImage!
-    
+    @objc var scrollView: UIScrollView!
+    private var imageLayers: [UIImageView] = [UIImageView]()
     //MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        tblLayer.setEditing(true, animated: true)
+        imageFiltrationInScrollviewSubviews()
         // Do any additional setup after loading the view.
-        
         arrLayers = ["WaterMarkSample", "ExplicitContent"]
+    }
+    
+    private func imageFiltrationInScrollviewSubviews() {
+        for counter in 0..<scrollView.subviews.count {
+            let subContentView = scrollView.subviews[counter]
+            if subContentView.isKind(of: UIImageView.self) {
+                if let imageView = subContentView as? UIImageView {
+                    self.imageLayers.append(imageView)
+                }
+            }
+        }
+        self.tblLayer.reloadData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -58,6 +77,7 @@ class LayersVC: UIViewController {
         self.navigationController?.navigationBar.isHidden = false
         self.navigationController?.navigationBar.isTranslucent = true
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        self.navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1)
         self.navigationItem.addLeftButtonWithImage(self, action: #selector(actionButtonBack(_:)), buttonImage: #imageLiteral(resourceName: "icBack"))
         
         self.navigationItem.title = "Layers"
@@ -94,36 +114,17 @@ class LayersVC: UIViewController {
 
 extension LayersVC: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return section == 0 ? arrLayers.count : 1
+        return imageLayers.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.section == 0 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "LayerCell") as! LayerCell
-            if selectedDeleteIndex == indexPath.row {
-                cell.btnDelete.isHidden = false
-                cell.btnDeleteWidthConstraint.constant = 80.0
-            } else {
-                cell.btnDelete.isHidden = true
-                cell.btnDeleteWidthConstraint.constant = 37.0
-            }
-            cell.imgLayer.image = UIImage(named: arrLayers[indexPath.row])
-            cell.btnDelete.tag = indexPath.row
-            cell.btnCheckbox.tag = indexPath.row
-            cell.btnSelectDelete.tag = indexPath.row
-            
-            cell.btnCheckbox.addTarget(self, action: #selector(actionButtonCheckmark(_:)), for: .touchUpInside)
-            cell.btnSelectDelete.addTarget(self, action: #selector(actionButtonDeleteSelect(_:)), for: .touchUpInside)
-            cell.btnDelete.addTarget(self, action: #selector(actionButtonDelete(_:)), for: .touchUpInside)
-            return cell
-        } else {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "LayerCell") as! LayerCell
-            cell.imgLayer.image = originalImage
-            return cell
-        }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LayerCell") as! LayerCell
+        let imageview = imageLayers[indexPath.row]
+        cell.imgLayer.image = imageview.image
+        return cell
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -133,4 +134,50 @@ extension LayersVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 140
     }
+    
+    
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let itemToMove = imageLayers[sourceIndexPath.row]
+        imageLayers.remove(at: sourceIndexPath.row)
+        imageLayers.insert(itemToMove, at: destinationIndexPath.row)
+        self.updatesInScrollviewSubviews()
+    }
+    
+    private func updatesInScrollviewSubviews() {
+        var tempScrollView: UIScrollView = self.scrollView
+        
+        for counter in 0..<scrollView.subviews.count {
+            let subContentView = scrollView.subviews[counter]
+            if let imageView = subContentView as? UIImageView {
+                tempScrollView.insertSubview(imageView, at: counter)
+            } else {
+                tempScrollView.insertSubview(subContentView, at: counter)
+            }
+        }
+            
+//        for subview in scrollView.subviews {
+//            subview.removeFromSuperview()
+//        }
+        for counter in 0..<tempScrollView.subviews.count {
+            let subContentView = scrollView.subviews[counter]
+            self.scrollView.addSubview(subContentView)
+        }
+//        self.scrollView = tempScrollView
+        self.delegate?.scrollViewLayersUpdates(scrollView: self.scrollView)
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            imageLayers.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
+    
 }
