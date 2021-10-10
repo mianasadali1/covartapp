@@ -105,7 +105,8 @@ class ImageFiltersVC: UIViewController {
         self.navigationController?.navigationBar.isTranslucent = true
 //        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 //        self.navigationItem.addLeftButtonWithImage(self, action: #selector(actionButtonCancel(_:)), buttonImage: #imageLiteral(resourceName: "icCancel"))
-        
+        self.view.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+
         let space1 = UIBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil, action: nil)
         space1.width = 60
         let btnCancel = UIBarButtonItem(image: #imageLiteral(resourceName: "icCancel"), style: .plain, target: self, action: #selector(actionButtonCancel(_:)))
@@ -118,9 +119,9 @@ class ImageFiltersVC: UIViewController {
         let btnConfirm = UIBarButtonItem(image: #imageLiteral(resourceName: "icConfirm"), style: .plain, target: self, action: #selector(actionButtonConfirm(_:)))
         self.navigationItem.addMutipleItemsToRight(items: [btnConfirm, space2])
         
-//        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-//        self.navigationController?.navigationBar.shadowImage = UIImage()
-//        self.navigationController?.navigationBar.layoutIfNeeded()
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.layoutIfNeeded()
 
         colOptions.register(UINib(nibName: "FilterCollectionCell", bundle: nil), forCellWithReuseIdentifier: "FilterCollectionCell")
         colFilters.register(UINib(nibName: "ImageFilterColCell", bundle: nil), forCellWithReuseIdentifier: "ImageFilterColCell")

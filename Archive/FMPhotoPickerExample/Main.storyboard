@@ -160,7 +160,7 @@
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ldk-QS-6Aq">
                                 <rect key="frame" x="0.0" y="90" width="375" height="417"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.97999999999999998" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="52t-gK-hLU" userLabel="explicit">
                                 <rect key="frame" x="201.5" y="537" width="158.5" height="30"/>

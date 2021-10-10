@@ -112,9 +112,9 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(photoSelected:) name:@"photoselectedForEditing" object:nil];
 }
 
-//-(void)viewDidDisappear:(BOOL)animated {
-//    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"photoselectedForEditing" object:nil];
-//}
+-(void)viewDidDisappear:(BOOL)animated {
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"photoselectedForEditing" object:nil];
+}
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];

@@ -28,18 +28,38 @@
 
 - (void)scrollViewLayersUpdatesWithScrollView:(UIScrollView *)scrollView {
 //    for(UIView *sub in self.scrollView.subviews){ [sub removeFromSuperview]; }
-    self.scrollView = scrollView;
-
-    for(UIView *sub in self.scrollView.subviews){
-        if ([sub isKindOfClass:[UIImageView class]]) {
-            UIImageView *imageView = (UIImageView *)sub;
-            self.originalImage = imageView.image;
-            break;
+//    self.scrollView = scrollView;
+    for(UIView *sub in scrollView.subviews){
+        [self.scrollView addSubview:sub];
+    }
+  
+    for (long x=0; x<self.scrollView.subviews.count; x++) {
+//    for (long x=self.scrollView.subviews.count - 1; x>=0; x--) {
+        if ([self.scrollView.subviews[x] isKindOfClass:[UIImageView class]]) {
+            UIImageView *imageView = (UIImageView *)self.scrollView.subviews[x];
+            [self.scrollView bringSubviewToFront:imageView];
+//            self.originalImage = imageView.image;
+//            break;
         }
     }
+//    for(UIView *sub in self.scrollView.subviews){
+//        if ([sub isKindOfClass:[UIImageView class]]) {
+//            UIImageView *imageView = (UIImageView *)sub;
+//            self.originalImage = imageView.image;
+//            break;
+//        }
+//    }
 //    _originalImage = [UIImage new];
 //    self.originalImage = image;
 //    [self refreshImageView];
+    
+//    _imageView = [UIImageView new];
+//    [self.scrollView addSubview:_imageView];
+//
+//    _imageView.image = _originalImage;
+//    [self resetImageViewFrame];
+//    [self resetZoomScaleWithAnimated:NO];
+
 }
 
 - (void)selecteNewImageGallery:(UIImage *)image {
@@ -49,7 +69,23 @@
     [self.icExplicitCheck setHighlighted:NO];
     [self.contentImageView setHidden:TRUE];
 
-    [self refreshImageView];
+    _imageView = [UIImageView new];
+    [self.scrollView addSubview:_imageView];
+
+    _imageView.image = _originalImage;
+    [self resetImageViewFrame];
+    [self resetZoomScaleWithAnimated:NO];
+    self.contentImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ExplicitContent"]];
+    [self.imageView addSubview:self.contentImageView];
+
+    self.imageViewWaterMark = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ExplicitContent"]];
+    [self.imageViewWaterMark setContentMode:UIViewContentModeScaleToFill];
+    [self.imageView addSubview:self.imageViewWaterMark];
+
+    [self.imageViewWaterMark setHidden:YES];
+    [self.contentImageView setHidden:YES];
+
+//    [self refreshImageView];
 }
 
 - (void)filteredImageGetBackWithPhoto:(UIImage *)photo {
@@ -104,8 +140,8 @@
 }
 
 - (void)refreshImageView{
-//    for(UIView *sub in self.scrollView.subviews){ [sub removeFromSuperview]; }
-
+    for(UIView *sub in self.scrollView.subviews){ [sub removeFromSuperview]; }
+    
     _imageView = [UIImageView new];
     [self.scrollView addSubview:_imageView];
 

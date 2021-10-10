@@ -77,7 +77,11 @@ class LayersVC: UIViewController {
         self.navigationController?.navigationBar.isHidden = false
         self.navigationController?.navigationBar.isTranslucent = true
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-        self.navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1)
+//        self.navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1)
+        self.view.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
+
         self.navigationItem.addLeftButtonWithImage(self, action: #selector(actionButtonBack(_:)), buttonImage: #imageLiteral(resourceName: "icBack"))
         
         self.navigationItem.title = "Layers"
@@ -161,6 +165,7 @@ extension LayersVC: UITableViewDelegate, UITableViewDataSource {
                 tempScrollView.insertSubview(subContentView, at: counter)
             }
         }
+
             
 //        for subview in scrollView.subviews {
 //            subview.removeFromSuperview()
